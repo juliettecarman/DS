@@ -119,5 +119,5 @@ elo <- function(jpMat, method='elow', Kfactor=32, xiparameter=400, initScore=200
   rating <- scoreNew
   ranking <- rank(-rating, na.last="keep", ties.method)
   result <- list(rating=rating, ranking=ranking)
-  return(result)
+  return(result) # This is the result
 }
