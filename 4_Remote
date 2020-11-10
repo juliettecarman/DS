@@ -1,0 +1,17 @@
+# Copy the first line of code (git remote add) and run it from your command line terminal
+
+git remote add origin https://github.com/jgouvu/myrepository.git
+
+# see if your repos are linked:
+
+git remote -v
+
+git push origin master
+
+# Add a third line: "GitHub was sold to Microsoft."
+
+git pull origin master
+
+git log
+
+cat aboutGit.txt

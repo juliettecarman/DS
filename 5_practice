@@ -1,0 +1,15 @@
+
+git add Rfun_elo.R
+git add Rfun_readJudgePresenterMatrix.R
+
+git commit -m "R functions for Elo algorithm"
+
+# Add a comment at the last line of function "# This is the output"
+
+git add Rfun_elo.R
+git commit -m "Add a comment"
+
+
+git remote -v
+
+git push origin master

@@ -1,0 +1,30 @@
+# make sure that Git can talk to GitHub
+
+git config --global user.name "Jiangtao Gou"
+git config --global user.email "jgou.vu@gmail.com"
+
+# In the two lines above, replace my name and email with your own. 
+# For email address, it must match exactly to the email address you used to set up GitHub.
+
+
+# Operating systems handle line endings in files in different ways.
+
+# Mac and Linux Users:
+
+git config --global core.autocrlf input
+
+# PC Users:
+
+git config --global core.autocrlf true
+
+
+# set a default text editor
+
+# Mac and Linux Users:
+
+git config --global core.editor "nano -w"
+
+# PC Users:
+
+git config core.editor notepad
+

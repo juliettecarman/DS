@@ -1,0 +1,67 @@
+# create a folder that allows git to track changes in this folder
+ 
+git init
+ 
+# check the status
+ 
+git status
+ 
+ 
+git add aboutGit.txt
+
+git status
+
+
+# Every commit must have an accompanying message that summarizes what changes are in that commit
+
+git commit -m "wrote an intro file"
+
+
+git status
+
+
+# Change the first sentence in aboutGit.txt to "Git is a distributed version control system."
+
+git status
+
+git diff
+
+git diff aboutGit.txt
+
+
+git add aboutGit.txt
+
+git status
+
+git commit -m "add distributed"
+
+git status
+
+
+
+# Change the second sentence to "Git is free software distributed under the GPL."
+
+git log
+
+git add aboutGit.txt
+
+git commit -m "append GPL"
+
+git log
+
+cat aboutGit.txt
+
+git reflog
+
+git reset --hard 8b1053a
+
+cat aboutGit.txt
+
+git reflog
+
+git reset --hard 5b27819
+
+cat aboutGit.txt
+
+git reflog
+

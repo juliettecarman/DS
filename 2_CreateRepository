@@ -1,0 +1,15 @@
+# make a directory on our desktop
+# If you are on a Windows machine, you will need to change the forward slashes to back slashes:
+
+cd ~/Desktop
+mkdir myrepository
+cd myrepository
+pwd
+
+# Git repo
+
+git init
+
+ls
+
+ls -a
