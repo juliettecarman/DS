@@ -1,7 +1,7 @@
 # make sure that Git can talk to GitHub
 
 git config --global user.name "Juliette Carman"
-git config --global user.email "jcarman@villanova.edu"
+git config --global user.email "jcarman1@villanova.edu"
 
 # In the two lines above, replace my name and email with your own. 
 # For email address, it must match exactly to the email address you used to set up GitHub.
